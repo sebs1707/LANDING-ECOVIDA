@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 1.6;
     background-color: #f5f5f5;
     color: #222;
@@ -221,4 +221,44 @@ body {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .productos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .producto {
+    width: 90%;
+  }
+
+  .grid-container {
+    padding: 1rem;
+  }
+
+  .comparacion table,
+  .contacto form {
+    font-size: 0.9rem;
+  }
+}
+
+.boton-info {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2a9d8f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-info:hover {
+  background-color: #21867a;
 }

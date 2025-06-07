@@ -8,56 +8,71 @@
     <link rel="stylesheet" href="estilos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="grid-container">
 
-        <header class="header">
+        <header class="header" id="inicio">
             <h1>EcoVida</h1>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Comparación</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#comparacion">Comparación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
+
         </header>
 
         <section class="hero">
-            <img src="./img/Mejoran-las-TIC-la-sostenibilidad-ambiental-e1737371465804.webp" alt="Naturaleza y sostenibilidad" width="400px" class="imagen">
+            <img src="./img/Mejoran-las-TIC-la-sostenibilidad-ambiental-e1737371465804.webp"
+                alt="Naturaleza y sostenibilidad" width="400px" class="imagen">
             <div class="mensaje-hero">
                 <h2>Viviendo en armonía con el planeta</h2>
             </div>
         </section>
 
-        <main class="productos">
+        <main class="productos" id="productos">
             <article class="producto">
                 <img src="./img/SHAMPOO-DE-ROMERO-LISTING_2.webp" alt="Shampoo ecologico" width="300px" class="imagen">
                 <h3>Producto 1 - SHAMPOO CON ROMERO ANYELUZ</h3>
-                <p>El Nuevo Shampoo de Romero llega a la línea capilar de Anyeluz y anuestra tienda ECOVIDA, hecho con extracto de cebolla, ácido hialurónico y romero por dentro. Ideal para acelerar el crecimiento, darle brillo y sedosidad a tu cabello..</p>
-                <button>Más info</button>
+                <p>El Nuevo Shampoo de Romero llega a la línea capilar  de       Anyeluz y anuestra tienda ECOVIDA, hecho con
+                    extracto de cebolla, ácido hialurónico y romero por dentro. Ideal para acelerar el crecimiento,
+                    darle brillo y sedosidad a tu cabello..
+                </p>
+                <a href="https://www.anyeluz.com/collections/shampoo/products/shampoo-con-romero-anyeluz" class="boton-info">Más info</a>  
             </article>
 
             <article class="producto">
                 <img src="./img/05-2.webp" alt="Cepillo Bamboo" width="300px" class="imagen">
                 <h3>Producto 2 - Cepillo de Dientes de Bambú Tripack Adultos</h3>
-                <p>Descubre nuestros cepillos de dientes de bambú certificados por FSC para una sonrisa radiante y un planeta sano. Una elección sostenible para toda la familia, con mango ergonómico y cerdas de dureza suave a medias.</p>
-                <button>Más info</button>
+                <p>Descubre nuestros cepillos de dientes de bambú certificados por FSC para una sonrisa radiante y un
+                    planeta sano. Una elección sostenible para toda la familia, con mango ergonómico y cerdas de dureza
+                    suave a medias.
+                </p>
+                <a href="https://bamboobalance.pe/producto/tripack-de-cepillo-de-bambu/" class="boton-info">Más info</a>
             </article>
 
             <article class="producto">
-                <img src="./img/TripackBio_Bridelice_22_face_TT_V3.png" alt="Crema líquida" width="300px" class="imagen">
+                <img src="./img/TripackBio_Bridelice_22_face_TT_V3.png" alt="Crema líquida" width="300px"
+                    class="imagen">
                 <h3>Producto 3 - Crema líquida a temperatura ambiente orgánica Bridélice</h3>
-                <p>A través de la expansión de su cartera de soluciones para cubrir nuevos formatos, categorías de producto y ubicaciones, la empresa continúa avanzando en el área del contenido reciclado de los envases para bebidas, con el uso de polímeros reciclados certificados1.
-                Tetra Pak fue el primer fabricante de envases de cartón en ofrecer soluciones que usan polímeros reciclados certificados, al trabajar junto con Elvir en Francia para lanzar la primera tapa para envases para bebidas con polímeros reciclados certificados en 2022.</p>
-                <button>Más info</button>
+                <p>A través de la expansión de su cartera de soluciones para cubrir nuevos formatos, categorías de
+                    producto y ubicaciones, la empresa continúa avanzando en el área del contenido reciclado de los
+                    envases para bebidas, con el uso de polímeros reciclados certificados1.
+                    Tetra Pak fue el primer fabricante de envases de cartón en ofrecer soluciones que usan polímeros
+                    reciclados certificados, al trabajar junto con Elvir en Francia para lanzar la primera tapa para
+                    envases para bebidas con polímeros reciclados certificados en 2022.
+                </p>
+                <a href="https://www.tetrapak.com/es-pe/about-tetra-pak/news-and-events/newsarchive/Tetra-Pak-takes-carton-packages-with-recycled-content-to-the-next-level" class="boton-info">Más info</a>
             </article>
         </main>
         <br><br>
-        <section class="comparacion">
+        <section class="comparacion" id="comparacion">
             <table>
                 <caption>Comparativa de beneficios</caption>
                 <thead>
@@ -87,7 +102,7 @@
             </table>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <h2>Contáctanos</h2>
             <form>
                 <label for="nombre">Nombre:</label>
